@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/{date}",
+      "lambdaFunction": "VdhrParserLambda",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/*"
+    }
+  ],
+  "resourceName": "VdhrParserApi",
+  "apiName": "VdhrParserApi",
+  "functionArns": [
+    {
+      "lambdaFunction": "VdhrParserLambda"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-amplifyd3a7d1dc22ab4-staging-111757-authRole",
+    "unAuthRoleName": "amplify-amplifyd3a7d1dc22ab4-staging-111757-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "VdhrParserLambda",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
