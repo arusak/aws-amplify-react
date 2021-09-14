@@ -10,6 +10,14 @@
       "StackName": "amplify-amplifyd3a7d1dc22ab4-staging-111757",
       "StackId": "arn:aws:cloudformation:eu-central-1:324360494330:stack/amplify-amplifyd3a7d1dc22ab4-staging-111757/6a21fc40-154d-11ec-afa4-0a35ad70f8f0",
       "AmplifyAppId": "d2e4zrbwc6mc6b"
+    },
+    "categories": {
+      "function": {
+        "VdhrParserLambda": {
+          "deploymentBucketName": "amplify-amplifyd3a7d1dc22ab4-staging-111757-deployment",
+          "s3Key": "amplify-builds/VdhrParserLambda-6c4c44534d5156307531-build.zip"
+        }
+      }
     }
   }
 }
